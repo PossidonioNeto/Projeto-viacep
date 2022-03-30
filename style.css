@@ -1,0 +1,20 @@
+body{
+    background-color: blue;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 30vw;
+    height: 40vh;
+    margin: 10vh auto;
+    justify-content: space-around;
+}
+button {
+    box-shadow:0.5px 0.5px ;
+    background-color: #fff;
+    border-radius: 5px;
+}
+input {
+    border-radius: 5px;
+}
