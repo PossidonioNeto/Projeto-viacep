@@ -28,7 +28,7 @@ include_once ('cep.php')
     </section>
     <section>
     <footer>
-    <div><p class='rodape'>Criado por Possidonio Neto, para mais informações acesse: <a target="_blank" href="https://github.com/PossidonioNeto/Projeto-viacep.git"> Projeto Cep</a>.</p></div>
+    <div><p class='rodape'>Criado por Possidonio Neto, para mais informações acesse: <a target="_blank" href="https://github.com/PossidonioNeto/Projeto-viacep/tree/master"> Projeto Cep</a>.</p></div>
     </footer>
 </section>
 </body>
