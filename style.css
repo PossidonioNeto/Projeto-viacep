@@ -1,20 +1,62 @@
-body{
-    background-color: blue;
+body {
+    background-image: url('images\ \(5\).jpeg');
+    background-size: cover;
+    background-position:center;
+    padding: 0;
+    margin: 0;
+    background-repeat: no-repeat;
 }
 
-form {
+header {
+    position: absolute;
+    top: 0;
+    background-color: rgb(167, 167, 240) ;
+    width: 100%;
+    height: 50px;
+    color: #fff;
+    text-align: center;
+    justify-items: center;
+    font-size: 30px;    
+}
+
+form { 
     display: flex;
     flex-direction: column;
     width: 30vw;
     height: 40vh;
-    margin: 10vh auto;
+    margin: 30vh auto;
     justify-content: space-around;
+    border: 5px solid #000;
+    border-radius: 1em;
+    border-style: double;
 }
 button {
-    box-shadow:0.5px 0.5px ;
-    background-color: #fff;
+    box-shadow:0.5px 0.5px 0.5px 0.5px #fff;
+    background-color: #000;
     border-radius: 5px;
+    font-weight:bolder ;
+    color:#fff
 }
 input {
     border-radius: 5px;
+    background-color: #dcdcdc;
+}
+.digitar {
+    color: #fff;
+font-weight: bold;
+}
+.rodape {
+    text-align: center;
+    margin: 0.5px;
+}
+a {
+    text-decoration: none;
+    color: #000;
+}
+footer {
+    position: absolute;
+    bottom: 0;
+    background-color: rgb(167, 167, 240) ;
+    width: 100%;
+    height: 30px;  
 }

@@ -10,8 +10,13 @@ include_once ('cep.php')
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <section>
+        <header>Identificador de CEP:</header>
+    </section>
+
+   <section>
     <form action="" method="post">
-        <p>Digite o CEP abaixo:</p>
+        <p class='digitar'>Digite o CEP abaixo:</p>
         <input type="text" placeholder="Digite um cep..." name="cep" value= "<?php echo $endereco->cep ?? '' ?>">
         <button type="submit">Pesquisar</button>
         <input type="text" placeholder="rua" name="rua" value= "<?php echo $endereco->logradouro ?? '' ?>" >
@@ -19,5 +24,12 @@ include_once ('cep.php')
         <input type="text" placeholder="cidade" name="cidade" value= "<?php echo $endereco->localidade ?? '' ?>">
         <input type="text" placeholder="estado" name="estado" value= "<?php echo $endereco->uf ?? '' ?>"> 
     </form>
+
+    </section>
+    <section>
+    <footer>
+    <div><p class='rodape'>Criado por Possidonio Neto, para mais informações acesse: <a target="_blank" href="https://github.com/PossidonioNeto/Projeto-viacep.git"> Projeto Cep</a>.</p></div>
+    </footer>
+</section>
 </body>
 </html> 
